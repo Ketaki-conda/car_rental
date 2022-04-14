@@ -66,7 +66,7 @@
   </tr> --><a class="olc" href='/carrented/{{i.id}}/{{ date }}'>
 <div class="row shadow-lg rounded p-3 mb-5 mt-5">
 <div class="col-md-4">
-<img class="cimg"src='/media/{{ i.car_image }}'>
+<img class="cimg"src='{% get_media_prefix %}{{ i.car_image }}'>
 </div>
 <p class="name">{{ i.car_name }}</p>
 <p class="num shadow-lg p-3 rounded">{{ i.car_num }}</p>
